@@ -1,7 +1,9 @@
 #include <iostream>
+#include <locale>
 using namespace std;
 int main()
 {
+    setlocale (LC_ALL, "ptb");
     int limite, cont, num, qtdePar = 0, qtdeImpar = 0;
     cout << "A sequência irá de 1 até quanto? ";
     cin >> limite;
